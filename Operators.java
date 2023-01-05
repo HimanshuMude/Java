@@ -9,5 +9,6 @@ public class Operators {
         height = s.nextFloat();
         area = (base * height) / 2f;
         System.out.println("Area is " + area);
+        s.close();
     }
 }

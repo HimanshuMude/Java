@@ -12,5 +12,6 @@ public class Area {
         System.out.println("Semiperimeter is " + semi);
         double area = Math.sqrt(semi * (semi - a) * (semi - b) * (semi - c));
         System.out.println("The area is " + area);
+        s.close();
     }
 }

@@ -13,5 +13,6 @@ public class quadratic {
         r1 = (-b + d) / (2f * a);
         r2 = (-b - d) / (2f * a);
         System.out.println("The roots are: " + r1 + " " + r2);
+        s.close();
     }
 }

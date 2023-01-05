@@ -1,4 +1,5 @@
-import java.lang.*;
+
+// import java.lang.*;
 import java.util.*;
 
 /**
@@ -10,5 +11,6 @@ public class KeybRead {
         s.useRadix(16);
         int x = s.nextInt();
         System.out.println(x);
+        s.close();
     }
 }
