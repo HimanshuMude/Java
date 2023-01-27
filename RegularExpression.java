@@ -47,7 +47,7 @@ public class RegularExpression {
         //Quantifiers
 
         /*
-         *  *==0 or more times 
+         *  * == 0 or more times 
          *   + one or more time
          *  ?== 0 or 1 time
          *  {x} x times
